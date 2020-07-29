@@ -58,7 +58,7 @@ Consider the following changes from defaults for your cluster and environment:
 - Change `basic.contact-points = ["127.0.0.1:9042"]` to the address and cql port of your Cassandra cluster.
 - Change `basic.local-datacenter = dc1` to connect to a data center in your Cassandra cluster.
 - Change `basic.request.consistency = LOCAL_ONE` to your preferred consistency level. 
-- Change `replication = {'class': 'NetworkTopologyStrategy', 'dc1' : 1}` in [`QueryDiagnostics.java`](/src/main/java/com/datastax/examples/QueryDiagnostics.java)
+- Change `replication = {'class': 'NetworkTopologyStrategy', 'dc1' : 1}` in [`QueryDiagnostics.java`](/src/main/java/com/datastax/examples/QueryDiagnostics.java#L31)
 to your preferred replication settings. 
 
 #### Running the program
