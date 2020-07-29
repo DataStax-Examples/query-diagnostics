@@ -11,9 +11,9 @@ client application. For example, why do I get [`NoNodeAvailableException`](https
 errors when I know nodes in my cluster are available? Diagnosis of a fault in a 
 distributed system is tricky. The application and driver have limited visibility 
 of the status of the network and members of the database cluster. Each exception 
-derives from a limited knowledge of what's going on. See the
+emanates from a limited knowledge of the state of all components in the system. See the
 [Byzantine Generals problem](https://en.wikipedia.org/wiki/Byzantine_fault) 
-for why that is generally.  However with more information about what is seen at each stage
+for a general explanation.  However with more information about what is seen at each stage
 through tracing and logging, you will hopefully arrive at a diagnosis more efficiently.
 
 Not considered directly for this example are multi-data center connections and data center failover.  However,
