@@ -64,7 +64,7 @@ to your preferred replication settings.
 #### Running the program
 To execute the program, run the following:
 
-`mvn exec:java -D"exec.mainClass"="com.diagnostics.QueryDiagnostics"`
+`mvn exec:java -D"exec.mainClass"="com.datastax.examples.QueryDiagnostics"`
 
 ## Additional Resources
 - Note in this repo that we've enabled debug logging of `com.datastax.oss.driver.internal.core.channel` in the [logback configuration](src/main/resources/logback.xml) to log connection updates with different nodes in the cluster
