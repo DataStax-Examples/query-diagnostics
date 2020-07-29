@@ -28,7 +28,7 @@ Contributors: [Jeremy Hanna](http://github.com/jeromatron)
 
 ## Objectives
 
-- Understand how queries interact with and within the Cassandra cluster
+- Understand how queries interact with and within a Cassandra cluster
 - Learn about tools to help diagnose problems such as logging, tracing, and those in [Additional Resources](#additional-resources)
 
 ## Project Layout
@@ -67,7 +67,7 @@ To execute the program, run the following:
 `mvn exec:java -D"exec.mainClass"="com.datastax.examples.QueryDiagnostics"`
 
 ## Additional Resources
-- Note in this repo that we've enabled debug logging of `com.datastax.oss.driver.internal.core.channel` in the [logback configuration](src/main/resources/logback.xml) to log connection updates with different nodes in the cluster
+- Note in this repo that we've enabled debug logging of `com.datastax.oss.driver.internal.core.channel` in the [logback configuration](src/main/resources/logback.xml#L26) to log connection updates with different nodes in the cluster
 - [Java driver documentation on query tracing](https://docs.datastax.com/en/developer/java-driver/4.7/manual/core/tracing/)
 - [`cqlsh` query tracing](https://docs.datastax.com/en/cql-oss/3.3/cql/cql_reference/cqlshTracing.html)
 - DataStax Studio developer notebooks have [execution configurations that can perform query traces](https://docs.datastax.com/en/studio/6.8/studio/gs/manageRunConfigurations.html)
