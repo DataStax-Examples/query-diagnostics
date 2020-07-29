@@ -69,7 +69,7 @@ To execute the program, run the following:
 ## Additional Resources
 - Note in this repo that we've enabled debug logging of `com.datastax.oss.driver.internal.core.channel` in the [logback configuration](src/main/resources/logback.xml#L26) to log connection updates with different nodes in the cluster
 - [Java driver documentation on query tracing](https://docs.datastax.com/en/developer/java-driver/4.7/manual/core/tracing/)
-- [`cqlsh` query tracing](https://docs.datastax.com/en/cql-oss/3.3/cql/cql_reference/cqlshTracing.html)
+- [`cqlsh` documentation on query tracing](https://docs.datastax.com/en/cql-oss/3.3/cql/cql_reference/cqlshTracing.html)
 - DataStax Studio developer notebooks have [execution configurations that can perform query traces](https://docs.datastax.com/en/studio/6.8/studio/gs/manageRunConfigurations.html)
 - [Interactive request tracing](https://www.datastax.com/blog/2012/11/request-tracing-cassandra-12)
 - [Probabilistic tracing](https://www.datastax.com/blog/2012/11/advanced-request-tracing-cassandra-12)
